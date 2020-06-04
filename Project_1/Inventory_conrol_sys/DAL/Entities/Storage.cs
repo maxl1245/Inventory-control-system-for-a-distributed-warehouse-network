@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Entities
 {
-    class Storage
+    public class Storage
     {
         public int storage_id { get; set; }
         public string storage_address { get; set; }
