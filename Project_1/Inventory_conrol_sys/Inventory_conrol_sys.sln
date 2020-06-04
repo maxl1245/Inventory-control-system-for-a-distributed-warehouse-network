@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory_conrol_sys", "Inv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{F9C3FB6D-3BAD-40DE-8372-A6F191D23A47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL.Tests", "DAL.Tests\DAL.Tests.csproj", "{32F044AE-B773-43E4-9CBC-BCBF74B71A24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL.Tests", "DAL.Tests\DAL.Tests.csproj", "{32F044AE-B773-43E4-9CBC-BCBF74B71A24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{7950C769-CD1A-464B-B582-4E8452303B88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +32,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D8105BC2-FE98-4253-889C-2FB51D12B6FE} = {7950C769-CD1A-464B-B582-4E8452303B88}
+		{F9C3FB6D-3BAD-40DE-8372-A6F191D23A47} = {7950C769-CD1A-464B-B582-4E8452303B88}
+		{32F044AE-B773-43E4-9CBC-BCBF74B71A24} = {7950C769-CD1A-464B-B582-4E8452303B88}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {28974AE9-AFF0-4385-AC0D-94B906CB1832}
