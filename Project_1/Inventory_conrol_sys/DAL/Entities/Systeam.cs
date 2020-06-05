@@ -8,6 +8,7 @@ namespace DAL.Entities
 {
    public class Systeam
     {
+        //public int SYSTEAMID { get; set; }
         public int shop_id { get; set; }
         public int storage_id { get; set; }
     }
