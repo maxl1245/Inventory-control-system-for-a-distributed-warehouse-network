@@ -8,6 +8,7 @@ namespace DAL.Entities
 {
     public class Shop
     {
+        public int SYSTEAMID { get; set; }
         public int shop_id { get; set; }
         public string shop_address { get; set; }
         public string item_name { get; set; }
