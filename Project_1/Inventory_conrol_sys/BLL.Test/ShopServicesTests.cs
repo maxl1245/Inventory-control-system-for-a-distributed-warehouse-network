@@ -45,7 +45,7 @@ namespace BLL.Test
         }
 
         [Fact]
-        public void GetShops_StreetFromDAL_CorrectMappingToStreetDTO()
+        public void GetShops_StreetFromDAL_CorrectMappingToShopDTO()
         {
             // Arrange
             User user = new Director(1, "test", 1);
