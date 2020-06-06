@@ -10,6 +10,6 @@ namespace BLL.DTO
         public string Name { get; set; }
         public string Address { get; set; }
         public string Director { get; set; }
-        //public IEnumerable<StreetDTO> Streets { get; set; }
+        
     }
 }
